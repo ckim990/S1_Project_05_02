@@ -5,18 +5,19 @@
    Case Problem 2
    
    Style Sheet for Costume Expressions Front Page
-   Author: 
-   Date:   
+   Author: Chris Kim
+   Date:   10.25.18
    
    Filename: ce_styles.css
 */
 
 
 /* Window and Body Styles */
+/* Changes background color. */
 html {
     background-color: rgb(101, 101, 101);
 }
-
+/* Changes background color of the body element and adds max and min width. It also adds the Verdana font. */
 body {
     background-color: white;
     font-family: Verdana, Geneva, arial, sans-serif;
@@ -26,30 +27,30 @@ body {
     min-width: 320px;
     position: relative;
 }
-
+/* The image is displayed as a block with its full width. */
 img {
     display: block;
     width: 100%;
 }
-
+/* No text decorations allowed! */
 nav > a {
     text-decoration: none;
 }
 
 /* Body Header Styles */
-body > header {
+body>header {
     background-color: rgb(191, 68, 70);
     height: 40px;
 }
 
-
+/* Displays the li element as a block and top and bottom padding is added. */
 body > header > nav > ul > li {
     display: block;
     float: left;
     margin-right: 20px;
     padding: 10px 0px 10px 0px;
 }
-
+/* Sets the colors on active and visited elements. */
 a:visited,
 a:link {
     font-size: 0.9em;
@@ -63,7 +64,7 @@ a:hover {
 
 /* DIV Container Styles */
 
-
+/* Padding is added to the right and left sides of the container. */
 div#container {
     padding: 0px 8px 0px 8px;
 }
@@ -75,6 +76,7 @@ div.cell a {
 }
 
 /* Footer Styles */
+/* Right and bottom and right absolute positions. */
 footer {
     position: absolute;
     bottom: 8px;

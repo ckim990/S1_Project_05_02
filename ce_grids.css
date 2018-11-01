@@ -5,8 +5,8 @@
    Case Problem 2
    
    Style Sheet for Grids used in the Costume Expressions Front Page
-   Author: 
-   Date:   
+   Author: Chris Kim
+   Date:   10.25.18
    
    Filename: ce_grids.css
 
@@ -31,6 +31,8 @@ div[class^="column"] {
 }
 
 /* Grid Columns Styles */
+/* The columns with the .column class will be affected.
+The columns get difference widths of percents. */
 div.column {
     float: left;
 }
@@ -78,6 +80,11 @@ div.column {
 
 
 /* Grid Spacing Styles */
-.container, .row, .column, .cell, .cell > a {
+/* The border box style is applied to the .container, .row, .column, .cell, .cell > a */
+.container,
+.row,
+.column,
+.cell,
+.cell>a {
     box-sizing: border-box;
 }
